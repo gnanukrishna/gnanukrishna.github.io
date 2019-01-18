@@ -139,6 +139,13 @@ img {
   padding-top: 100px;
   padding-bottom: 70px; }
 
+.bio{
+font-family: "Raleway", sans-serif;
+color: #5a5a5a;
+font-size: 21px;
+line-height: 1.8;
+font-weight: 400;
+}
 /* Preloader */
 #preloader {
   background-color: #f7f7f7;
@@ -1307,20 +1314,21 @@ textarea:focus {
     z-index: -1; }
   .register-now .register-contact-form {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 45%;
-    flex: 0 0 45%;
+    -ms-flex: 0 0 77%;
+    flex: 0 0 77%;
     min-width: 45%;
     width: 45%;
     background-color: #ffffff;
     padding: 40px;
+    height: 582px;
     border-radius: 6px; }
     @media only screen and (max-width: 767px) {
       .register-now .register-contact-form {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        min-width: 100%;
-        width: 100%;
+        min-width: 100%;        
+        width: 45%;
         padding: 15px; } }
     .register-now .register-contact-form .forms h4 {
       margin-bottom: 40px; }
@@ -1338,9 +1346,8 @@ textarea:focus {
   .register-now .register-now-countdown {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 45%;
-    flex: 0 0 45%;
-    min-width: 45%;
-    width: 45%; }
+    flex: 0 0 20%;
+    }
     @media only screen and (max-width: 767px) {
       .register-now .register-now-countdown {
         -webkit-box-flex: 0;
@@ -1960,5 +1967,11 @@ textarea:focus {
         text-transform: uppercase; }
       .bottom-footer-area .follow-us a:hover, .bottom-footer-area .follow-us a:focus {
         color: #ffffff; }
+
+
+#my-name{
+color: rgba(0, 0, 0, 0.45);
+margin-left: 64px;
+}
 
 /*# sourceMappingURL=style.css.map */
